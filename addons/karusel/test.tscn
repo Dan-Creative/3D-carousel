@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://buve6mahdhy2a"]
+
+[ext_resource type="PackedScene" uid="uid://dgwtqmm3tvj7k" path="res://addons/karusel/Karusel.tscn" id="1_fue5i"]
+[ext_resource type="PackedScene" uid="uid://ba28a2o4axop3" path="res://addons/karusel/element.tscn" id="2_wp2dq"]
+[ext_resource type="Texture2D" uid="uid://f8pqs0bfr1qp" path="res://icon.svg" id="3_eny1l"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CenterPoint" parent="." instance=ExtResource("1_fue5i")]
+
+[node name="Element" parent="CenterPoint" instance=ExtResource("2_wp2dq")]
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterPoint/Element"]
+texture = ExtResource("3_eny1l")
+
+[node name="Element2" parent="CenterPoint" instance=ExtResource("2_wp2dq")]
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterPoint/Element2"]
+texture = ExtResource("3_eny1l")
+
+[node name="Element3" parent="CenterPoint" instance=ExtResource("2_wp2dq")]
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterPoint/Element3"]
+texture = ExtResource("3_eny1l")
+
+[node name="Element4" parent="CenterPoint" instance=ExtResource("2_wp2dq")]
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterPoint/Element4"]
+texture = ExtResource("3_eny1l")
