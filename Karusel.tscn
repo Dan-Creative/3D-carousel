@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgwtqmm3tvj7k"]
+
+[ext_resource type="Script" path="res://addons/karusel/Karusel.gd" id="1_6mxsq"]
+
+[node name="Karusel" type="Marker2D"]
+y_sort_enabled = true
+position = Vector2(576, 320)
+gizmo_extents = 25.0
+script = ExtResource("1_6mxsq")

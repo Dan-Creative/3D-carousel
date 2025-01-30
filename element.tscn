@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ba28a2o4axop3"]
+
+[ext_resource type="Script" path="res://addons/karusel/MenuElement.gd" id="2_uq0ig"]
+
+[node name="Element" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("2_uq0ig")
